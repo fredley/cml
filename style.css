@@ -1,0 +1,21 @@
+body { font-family:Georgia,Times,Times New Roman,Serif; color: #060; }
+img { border:0px; }
+a img {border:0px; }
+#wrap{ width:800px; height:auto; margin:0px auto; }
+ul#navbar{ margin:0px; }
+ul#navbar li { display:block; }
+ul#navbar li a {  float:left; padding:0px 20px; margin-bottom:20px; color:#060; text-decoration:none; font-size:1.5em; display:block;}
+#main { clear:both; }
+ul#navbar li a.selected, ul#navbar li a:hover { color:#fff; background:#060; }
+.text-box{ width:380px; padding:0px 10px; margin:0; }
+.left  { float:left; }
+.right{ float:right; text-align:right; }
+.col{ width:400px; }
+.large{ font-size:1.3em; padding:10px 0px; }
+.small{ font-size:1em; padding:5px 0px;}
+.banner { width:780px; padding:10px; background:#ded; font-weight:bold; }
+div.lable {width:600px; }
+div.title {font-size:1.8em; color:black; margin:20px 0; }
+.pricetable { width:100%; border-collapse:collapse; }
+.pricetable th { text-align:left; background:#ded; }
+.pricetable td {border:1px solid #9b9; padding:5px;}

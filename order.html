@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+	<title>Order Form | Country Market Labels</title>
+	<link rel='stylesheet' type='text/css' href='order-style.css'/>
+	<link rel='stylesheet' type='text/css' href='style.css'/>
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-526122-13']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+</head>
+<body>
+	<div id='wrap'>
+		<div id='header'>
+			<a href='index.html' title='Country Market Labels'><img src='images/banner.png' alt='Country Market Labels' /></a>
+		</div>
+		<ul id='navbar'>
+			<li><a href='index.html'>Home</a></li>
+			<li><a href='labels.html'>Labels</a></li>
+			<li><a href='prices.html'>Prices</a></li>
+			<li><a href='contact.html'>Contact Us</a></li>
+			<li><a href='order.html' class='selected'>Order Online</a></li>
+		</ul>
+		<div id="form-1" class="panel">
+			<table border='0'>
+				<tr>
+					<td width='200'><h4>Label Type</h4></td>
+					<td><h4>Quantity Required</h4></td>
+				</tr>
+				<tr>
+					<td>Bakery and Produce</td>
+					<td><input class='label-order' size='2' type='text' name='bake'/> @ 25p / sheet</td>
+				</tr>
+				<tr>
+					<td>Circular</td>
+					<td><input class='label-order' size='2' type='text' name='circ'/> @ 40p / sheet</td>
+				</tr>
+				<tr>
+					<td>Craft</td>
+					<td><input class='label-order' size='2' type='text' name='craft'/> @ 40p / sheet</td>
+				</tr>
+				<tr>
+					<td>Flower Bunches</td>
+					<td><input class='label-order' size='2' type='text' name='flow'/> @ 40p / sheet</td>
+				</tr>
+				<tr>
+					<td>Logos/Mini</td>
+					<td><input class='label-order' size='2' type='text' name='mini'/> @ 65p / sheet</td>
+				</tr>
+				<tr>
+					<td>Plant</td>
+					<td><input class='label-order' size='2' type='text' name='plant'/> @ 25p / sheet</td>
+				</tr>
+				<tr>
+					<td>Plant Labels on Card</td>
+					<td><input class='label-order' size='2' type='text' name='plant-card'/> @ 40p / sheet</td>
+				</tr>
+				<tr>
+					<td>Preserves</td>
+					<td><input class='label-order' size='2' type='text' name='pres'/> @ 25p / sheet</td>
+				</tr>
+				<tr>
+					<td>Small Preserves</td>
+					<td><input class='label-order' size='2' type='text' name='smpr'/> @ 25p / sheet</td>
+				</tr>
+				<tr>
+					<td>Mini Logo</td>
+					<td><input class='label-order' size='2' type='text' name='tiny'/> @ 80p / sheet</td>
+				</tr>
+				<tr>
+					<td><h3>Logo</h3><br/></td>
+					<td><input type='radio' name='logo' value='New' checked='checked'/>New<br/><input type='radio' name='logo' value='Old'/>Old</td>
+				</tr>
+				<tr>
+					<td><h3>Overprinted Labels</h3></td>
+					<td>Please enter quantities below, you will be able to specify details on the next page.</td>
+				</tr>
+				<tr>
+					<td><h4>Label Type</h4></td>
+					<td><h4>Quantity Required (Minimum 20 Sheets)</h4></td>
+				</tr>
+				<tr>
+					<td>Name of Market or County (or product name and price on circular labels)</td>
+					<td><input class='overprinting' size='2' type='text' name='op1'/> @ 10p / sheet</td>
+				</tr>
+				<tr>
+					<td>Name and Address</td>
+					<td><input class='overprinting' size='2' type='text' name='op2'/> @ 15p / sheet</td>
+				</tr>
+				<tr>
+					<td>Full Overprinting</td>
+					<td><input class='overprinting' size='2' type='text' name='op3'/> @ 20p / sheet</td>
+				</tr>
+				<tr>
+					<td><h3>Free CD</h3>With overprinting software (Windows Only).<br/>Orders of 20+ sheets only.</td>
+					<td><input type='radio' name='cd' value='1' />Yes<br/><input type='radio' name='cd' value='0' checked='checked'/>No</td>
+				</tr>
+				<tr>
+					<td><h3>Delivery</h3></td>
+					<td><input type='radio' name='delivery' value='standard' checked='checked'/>Standard (free for orders over £30) - £3.00<br/><input type='radio' name='delivery' value='first'/>First Class - £4.50:</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type='submit' name='submit' value='Next' class='submit' id='submit-1'/></td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="form-2" class="panel" style='display: none;'>
+			<h1>Over Printing</h1>
+			<h3>Please enter the details for your overprinting. Please specify which labels you want overprinted in each case.</h3>
+			<textarea id='overprinting-instructions' name='overprint' cols='84' rows='20'></textarea>
+			<br/>
+			<a class='submit' href='#' id="step-1">Go Back</a>
+			<input type='submit' name='submit' value='Next' class='submit' id="submit-2" />
+		</div>
+
+		<div id="form-3" class="panel" style='display: none;'>
+			<h1>Confirm and Pay for your order</h1>
+			<h4>Please check this information is correct:</h4>
+			<table id="order-summary">
+				<tr><td width='300'><h3>Your Order:</h3></td><td></td></tr>
+			</table>
+			PayPal: 
+			<form style='display:inline;' action='https://www.paypal.com/cgi-bin/webscr' method='post' id="pp">
+				<input type='hidden' name='cmd' value='_cart'>
+				<input type='hidden' name='upload' value='1'>
+				<input type='hidden' name='business' value='george@georgemedley.com'>
+				<input type='hidden' name='currency_code' value='GBP'>
+				<input type='image' src='https://www.paypal.com/en_US/i/btn/btn_buynow_LG.gif' name='submit' alt="Make payments with PayPal - it's fast, free and secure!">
+			</form>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function(){
+			var order = {'overprinting': {}, 'labels': {}};
+			var grand_total = 0;
+			var total_quantity = 0;
+			var order_idx = 0;
+
+			function getName(tag){
+				if (tag == 'op1') return 'Name of Market or County';
+				if (tag == 'op2') return 'Name and Address';
+				if (tag == 'op3') return 'Full Overprinting';
+				if (tag == 'bake') return 'Bakery and Produce';
+				if (tag == 'smpr') return 'Small Preserves';
+				if (tag == 'pres') return 'Preserves';
+				if (tag == 'plant') return 'Plant';
+				if (tag == 'circ') return 'Circular';
+				if (tag == 'craft') return 'Craft';
+				if (tag == 'flow') return 'Flower Bunches';
+				if (tag == 'plant-card') return 'Plant Labels on Card';
+				if (tag == 'mini') return 'Logos/Mini';
+				if (tag == 'tiny') return 'Mini Logo';
+			}
+
+			function getPrice(tag){
+				switch(tag){
+					case 'op1':
+						return 0.1;
+					case 'op2':
+						return 0.15;
+					case 'op3':
+						return 0.2;
+					case 'bake':
+					case 'smpr':
+					case 'pres':
+					case 'plant':
+						return 0.25;
+					case 'circ':
+					case 'craft':
+					case 'flow':
+					case 'plant-card':
+						return 0.4;
+					case 'mini':
+						return 0.65;
+					case 'tiny':
+						return 0.8;
+				}
+			}
+
+			function addItem(tag, quantity){
+				var name = getName(tag);
+				var price = getPrice(tag);
+				var total = quantity * price;
+				grand_total += total;
+				$('#order-summary').append("<tr class='generated'><td>"+quantity+" x "+name + " @ " + parseInt(price*100) + "p / sheet</td><td>£"+total.toFixed(2)+"</td></tr>")
+				appendPPItem(name, quantity, price);
+			}
+
+			function appendPPItem(name, quantity, value){
+				$('#pp').append("<input class='generated' type='hidden' name='item_name_"+order_idx+"' value='"+name+"' />")
+			    .append("<input class='generated' type='hidden' name='amount_"+order_idx+"' value='"+value+"' />")
+			    .append("<input class='generated' type='hidden' name='quantity_"+order_idx+"' value='"+quantity+"' />");
+		    order_idx += 1;
+			}
+
+			function showPanel(panel){
+				if (panel === '#form-3'){
+					order_idx = 1;
+					grand_total = 0;
+					total_quantity = 0;
+					$('.generated').remove();
+					$.each(order.labels, function(tag, quantity){
+						addItem(tag, quantity);
+						total_quantity += quantity;
+					});
+					if(!$.isEmptyObject(order.overprinting)){
+						$('#order-summary').append("<tr class='generated'><td colspan='2'><h4>Overprinting:</h4></td></tr>");
+						$.each(order.overprinting, function(tag, quantity){
+							addItem(tag, quantity);
+						});
+						appendPPItem("Overprinting Instructions - " + order['overprinting-instructions'], 1, 0);
+					}
+					// logo
+					var logo_type = $('input[name=logo]:checked').val();
+					$('#order-summary').append("<tr class='generated'><td>The <b>"+logo_type+"</b> logo is to be used.</td></tr>");
+					appendPPItem(logo_type + " Logo", 1, 0);
+					// cd
+					if($('input[name=cd]:checked').val() === '1'){
+						$('#order-summary').append("<tr class='generated'><td>Free CD</td><td>£0.00</td></tr>");
+						appendPPItem("Free CD", 1, 0);
+				  }
+					// discount
+					if(total_quantity > 200){
+						var discount = parseFloat(grand_total * 0.05).toFixed(2);
+						grand_total -= discount;
+						$('#order-summary').append("<tr class='generated'><td><h3>Discount</h3>5% Discount for orders of 200 labels or more:</td><td><b>-£" + discount + "</b></td></tr>");
+					}
+					// delivery
+					var delivery = 3;
+					var delivery_text = "Standard (Free for orders over £30)";
+					if (grand_total > 30){
+						delivery = 0;
+					}
+					if($('input[name=delivery]:checked').val() === 'first'){
+						delivery = 4.5;
+						delivery_text = "First";
+					}
+					grand_total += delivery;
+					$('#order-summary').append("<tr class='generated'><td><h3>Delivery</h3> - "+delivery_text+"</td><td>£"+parseFloat(delivery).toFixed(2)+"</td></tr>");
+					appendPPItem("Delivery", 1, delivery);
+			    if(total_quantity > 200){
+			    	$('#pp').append("<input class='generated' type='hidden' name='discount_amount_cart' value='" + discount + "' />");
+			    }
+					$('#order-summary').append("<tr class='generated'><td><h2>Total</h2></td><td><h2>£" + parseFloat(grand_total).toFixed(2) + "</h2></td></tr>");
+				}
+				$('.panel').hide();
+				$(panel).show();
+			}
+
+			$('#step-1').on('click', function(){
+				showPanel('#form-1');
+				order = {'overprinting': {}, 'labels': {}};
+			})
+
+
+			$('#submit-1').on('click', function(){
+				var ordered = false;
+				var overprinting = false;
+				$('.label-order').each(function(){
+					var quantity = parseInt($(this).val());
+					if(quantity > 0){
+						order.labels[$(this).attr('name')] = quantity;
+						ordered = true;
+					}
+				});
+				$('.overprinting').each(function(){
+					var quantity = parseInt($(this).val());
+					if(quantity > 0){
+						order.overprinting[$(this).attr('name')] = quantity;
+						overprinting = true;
+					}
+				});
+				$()
+				if (!ordered) {
+			      alert("No labels ordered!")
+			      return;
+		    }
+		    if (overprinting) {
+					showPanel('#form-2');
+		    } else {
+		    	showPanel('#form-3');
+		    }
+		  });
+
+			$('#submit-2').on('click', function(){
+				order['overprinting-instructions'] = $('#overprinting-instructions').val();
+				showPanel("#form-3");
+			});
+
+		});
+	</script>
+</body>
+</html>
