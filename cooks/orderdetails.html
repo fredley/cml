@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+<title>Order Form | Cooks of Country Market Labels</title>
+<link rel='stylesheet' type='text/css' href='order-style.css'/>
+<link rel='stylesheet' type='text/css' href='style.css'/>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-526122-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id='wrap'>
+<div id='header'>
+<a href='index.html' title='Country Market Labels'><img src='images/banner.png' alt='Country Market Labels' /></a>
+</div>
+<ul id='navbar'>
+<li><a href='index.html'>Home</a></li>
+<li><a href='labels.html'>Labels</a></li>
+<li><a href='prices.html'>Prices</a></li>
+<li><a href='contact.html'>Contact Us</a></li>
+<li><a href='order.html' class='selected'>Order Online</a></li>
+</ul>
+<div style='clear:both;' class='title'>Order Labels</div>
+<p>Please enter the details for your label:</p>
+<form action='order1.php' method='post'>
+<table border='0'>
+<tr><td width='200'><h4>Label Details</h4></td><td></td></tr>
+<tr><td>Label Type</td><td><select name='type'><option>Jar - Large</option><option>Jar - Small</option><option>Cake - Large</option><option>Cake - Small</option><option>Round Jar-top</option></select></td></tr>
+<tr><td>Product Title</td><td><input size='20' type='text' name='title' maxlength='65' /></td></tr>
+<tr><td>Product Description</td><td><input size='20' type='text' name='description' maxlength='100'/></td></tr>
+<tr><td>Colour</td><td>
+	<div class='colourselect'><input type='radio' name='colour' value='green'/><span class='block light' style='background:#056839;'>Cooks Green</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='blue'/><span class='block light' style='background:#2d6690;'>Cooks Blue</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='purple'/><span class='block light' style='background:#883789;'>Cooks Purple</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='red'/><span class='block light' style='background:#c22126;'>Cooks Red</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='orange'/><span class='block light' style='background:#e96924;'>Cooks Orange</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='brown'/><span class='block light' style='background:#5d4123;'>Cooks Brown</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='green2'/><span class='block light' style='background:#88a53d;'>Cooks Green 2</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='blue2'/><span class='block light' style='background:#085596;'>Cooks Blue 2</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='orange2'/><span class='block light' style='background:#e9ab1f;'>Cooks Orange 2</span></div>
+	<div class='colourselect'><input type='radio' name='colour' value='red2'/><span class='block light' style='background:#c81d65;'>Cooks Red 2</span></div>
+	 
+	</td></tr> 
+<tr><td>List of Ingredients</td><td><textarea name='ingredients'></textarea></td></tr>
+<tr><td>For Sugar Preserves, the total sugar content (e.g. 64g per 100g)</td><td><input size='20' type='text' name='sugar'/></td></tr>
+<tr><td>...Or sugar / fruit percentages (e.g. 59g of fruit per 100g)</td><td><input size='20' type='text' name='percentage'/></td></tr>
+<tr><td>Best Before Type</td><td><select name='bestbefore'><option>Best Before</option><option>Best Before End</option></select></td></tr>
+<tr><td>Best Before Location</td><td><select name='bestbeforeloc'><option>Base of Pack</option><option>Top of Pack</option><option>Side of Pack</option><option>Bottom of Pack</option></select></td></tr>
+<tr><td>Minimum weight/volume (include units). For pickles give both minimum and drained weight.</td><td><input size='20' type='text' name='weight'/></td></tr>
+<tr><td>Your Name</td><td><input size='20' type='text' name='name'  /></td></tr>
+<tr><td>Your Address</td><td><textarea name='address'></textarea></td></tr>
+<tr><td>Your Telephone Number</td><td><input size='20' type='text' name='phone' /></td></tr>
+<tr><td><input type='hidden' name='action' value='label' /></td><td><input type='submit' name='submit' value='Next' class='submit'/></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>
